@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.header {
+    height: 17.5vh;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(129, 148, 171);
+    font-family: 'mitrbold';
+    color: rgb(215,238,255);
+}
+
+.gamesection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(163, 183, 180);
+    height: 82.5vh;
+    padding-top: 3rem;
+}
+
+.title {
+    font-size: 3rem;
+    padding-bottom: 3rem;
+    font-family: 'mitrregular';
+    color: rgb(45, 46, 46);
+}
+
+.board {
+    background-color: rgb(246, 247, 235);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 400px;
+    width: 400px;
+    border: 3px solid rgb(45, 46, 46);
+}
+
+.tile {
+    border: 3px solid rgb(45, 46, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(45, 46, 46);
+    font-size: 3rem;
+    cursor: pointer;
+    font-family: 'mitrbold';
+}
+
+.tile:hover {
+    background-color: rgb(215,238,255);
+}
+
+.restart {
+    padding-top: 3rem;
+}
+
+.restartButton {
+    height: 5rem;
+    width: 10rem;
+    border-radius: .5rem;
+    border: 1px solid rgb(129, 148, 171);
+    background-color: rgb(129, 148, 171);
+    font-size: 2rem;
+    cursor: pointer;
+    font-family: 'mitrregular';
+    color: rgb(215,238,255);
+}
+
+.restartButton:hover {
+    background-color: rgb(119, 136, 159);
+}
